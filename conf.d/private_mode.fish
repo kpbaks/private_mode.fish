@@ -1,8 +1,8 @@
 if set -q fish_private_mode; and test $fish_private_mode -eq 1
     set -l reset (set_color normal)
-    # TODO: make user configurable
+    # TODO: document in readme
     set -q private_mode_bg_color
-    or set -U private_mode_bg_color '#25023E' # same as firefox private mode
+    or set -U private_mode_bg_color '#25003e' # same as background color in firefox private mode's welcome page.
 
     set -q private_mode_fg_color
     or set -g private_mode_fg_color $fish_color_normal
