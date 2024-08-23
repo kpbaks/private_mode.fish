@@ -22,9 +22,8 @@ Color settings before entering will be restored upon leaving private mode.
 
 ## Terminal Support
 
-|--|--|
-|:--|:--:|
 |Terminal| Supported|
+|:--|:--:|
 | `kitty` | ✅ |
 | `alacritty` | ✅ |
 | `wezterm` | Planned |
