@@ -1,12 +1,13 @@
 # private_mode.fish
 
-Change terminal {fore,back}ground color when entering private mode in fish with `fish --private`, to make
+Change terminal {fore,back}ground color when entering **private mode** in fish with `fish --private`, to make
 it more apparent which mode your in! 
 Color settings before entering will be restored upon leaving private mode.
 
 > [!TIP]
 > What is private mode?
-> It is a feature built into `fish` that can be activated with the `--private` flag when spawning the shell.
+>
+> It is a feature built into `fish` that can be activated with the `-P` or `--private` flag when spawning the shell.
 > When in private mode, no typed commands are persisted to the `$history` variable.
 > This means that any command you type, will not be suggested in future sessions or stored in plain text on your disk.
 > A place where this is useful is if you have commands where sensitive information such as a password is passed to a command
@@ -24,8 +25,8 @@ Color settings before entering will be restored upon leaving private mode.
 |--|--|
 |:--|:--:|
 |Terminal| Supported|
-| `kitty` | yes |
-| `alacritty` | yes |
+| `kitty` | ✅ |
+| `alacritty` | ✅ |
 | `wezterm` | Planned |
 
 ## Installation
