@@ -5,7 +5,7 @@ if set -q fish_private_mode; and test $fish_private_mode -eq 1
     or set -U private_mode_bg_color '#25003e' # same as background color in firefox private mode's welcome page.
 
     set -q private_mode_fg_color
-    or set -g private_mode_fg_color $fish_color_normal
+    or set -g private_mode_fg_color "#$fish_color_normal"
     # set -l private_mode_fg_color '#00ffff'
 
     set -l jq_program
